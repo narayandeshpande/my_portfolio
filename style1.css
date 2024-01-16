@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    /* background-color: red; */
+    background-color: gray;
+    color: white;
+    /* width: 15vw; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 17px; */
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 30px 0px;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+
+}
+
+.contenar {
+    display: flex;
+}
+
+.infocontenar {
+    /* background-color: rgb(215, 53, 196); */
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 62vh;
+    /* width: auto; */
+    /* padding-right: 20px; */
+    padding-left: 100px;
+    /* margin: 100px; */
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.information {
+    font-size: 21px;
+    margin: 19px 0px;
+}
+
+.butten button {
+    margin-top: 34px;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+
+.butten button:hover {
+
+    color: blueviolet;
+    background-color: white;
+}
+
+.email {
+    width: 150px;
+}
+
+.btn {
+    padding: 7px;
+    cursor: pointer;
+    width: 304px;
+    border-radius: 35px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: blueviolet;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    height: 80vh;
+    /* background-color: rgb(169, 150, 150); */
+    color: black;
+    text-align: center;
+}
+
+form input {
+    margin: 10px;
+}
+
+.con {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.email {
+    width: 301px;
+}
+
+.sub {
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+.blog h2 {
+    margin: 10px;
+}
+
+.blog p {
+    margin: 10px;
+}
+
+.blog h1 {
+    text-align: center;
+}
+
+.btnn {
+    margin: 10px;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btnn:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
+.html {
+    /* border: 2px solid black; */
+    background-color: rgb(216, 195, 55);
+    width: 80vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.css {
+    /* border: 2px solid black; */
+    background-color: rgb(61, 42, 165);
+    width: 50vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+.py {
+    /* border: 2px solid black; */
+    background-color: rgb(165, 42, 118);
+    width: 70vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.cl {
+    /* border: 2px solid black; */
+    background-color: rgb(224, 23, 40);
+    width: 85vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+
+}
+
+.js {
+    /* border: 2px solid black; */
+    background-color: brown;
+    width: 65vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white
+}
+main{
+    padding: 10px;
+}
+@media screen and (max-width: 1024px) {
+ .devpic{
+    display: none;
+ }
+ .main{
+    margin-left: 30px;
+ }
+  }
+  .hamb{
+    cursor: pointer;
+    position: absolute;
+    left: 2px;
+  }
+  .cros{
+    cursor: pointer;
+    position: absolute;
+    left: 139px;
+    top: 5px;
+  }
+  .gosidebar{
+    transform: translate(-400px,0px);
+    position: absolute;
+
+  }
